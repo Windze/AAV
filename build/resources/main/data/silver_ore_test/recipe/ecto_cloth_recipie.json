@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "silver_ore_test:ecto_plasm"
+    }
+  },
+  "result": {
+    "id": "silver_ore_test:ecto_cloth",
+    "count": 1
+  }
+}

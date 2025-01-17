@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "silver_ore_test:silver_ore_block"
+    }
+  ],
+  "result": {
+    "id": "silver_ore_test:silver_ore_ingot",
+    "count": 9
+  }
+}

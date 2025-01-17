@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "silver_ore_test:block/blue_planks",
+    "bottom": "silver_ore_test:block/blue_planks",
+    "top": "silver_ore_test:block/blue_planks",
+    "side": "silver_ore_test:block/blue_planks"
+  },
+  "render_type": "solid"
+}

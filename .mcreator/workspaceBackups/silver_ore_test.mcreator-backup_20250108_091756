@@ -1,0 +1,512 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilverOreIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/item/SilverOreIngotItem.java",
+          "src/main/resources/assets/silver_ore_test/models/item/silver_ore_ingot.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverOreOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/silver_ore_ore.json",
+          "src/main/resources/assets/silver_ore_test/models/block/silver_ore_ore.json",
+          "src/main/java/net/mcreator/silveroretest/block/SilverOreOreBlock.java",
+          "src/main/resources/assets/silver_ore_test/models/item/silver_ore_ore.json",
+          "src/main/resources/assets/silver_ore_test/blockstates/silver_ore_ore.json",
+          "src/main/resources/data/silver_ore_test/neoforge/biome_modifier/silver_ore_ore_biome_modifier.json",
+          "src/main/resources/data/silver_ore_test/worldgen/placed_feature/silver_ore_ore.json",
+          "src/main/resources/data/silver_ore_test/worldgen/configured_feature/silver_ore_ore.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverOreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/block/silver_ore_block.json",
+          "src/main/java/net/mcreator/silveroretest/block/SilverOreBlockBlock.java",
+          "src/main/resources/assets/silver_ore_test/blockstates/silver_ore_block.json",
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/silver_ore_block.json",
+          "src/main/resources/assets/silver_ore_test/models/item/silver_ore_block.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverOreOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/silver_ore_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverOreBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/silver_ore_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverOreOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/silver_ore_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ore"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/item/silver_sword.json",
+          "src/main/java/net/mcreator/silveroretest/item/SilverSwordItem.java"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "AnvilSilverSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_silver_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/anvil_silver_sword_recipe.json"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "SilverSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/item/silver_smithing_template.json",
+          "src/main/java/net/mcreator/silveroretest/item/SilverSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "SilverTemplateLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_template_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/silver_template_loot_table.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "Test",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/worldgen/structure_set/test.json",
+          "src/main/resources/data/silver_ore_test/worldgen/structure/test.json",
+          "src/main/resources/data/silver_ore_test/worldgen/template_pool/test.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "EctoPlasm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecto_plasm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/item/EctoPlasmItem.java",
+          "src/main/resources/assets/silver_ore_test/models/item/ecto_plasm.json"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "GhostMoundMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_mound_mod",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "EctoCloth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecto_cloth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/item/EctoClothItem.java",
+          "src/main/resources/assets/silver_ore_test/models/item/ecto_cloth.json"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "EctoClothRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecto_cloth_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/ecto_cloth_recipie.json"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "Ghost_ShroudArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_shroud_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_shroud_armor_chestplate.json",
+          "src/main/java/net/mcreator/silveroretest/item/Ghost_ShroudArmorItem.java"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "Ghost_ShroudArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_shroud_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/ghost_shroud_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "GhostShroudBindPriNazhatiiKlavishi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_shroud_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/procedures/GhostShroudBindPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "GhostShroudArmorKazhdyiTikDliaNaghrudnika",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_shroud_armor_kazhdyi_tik_dlia_naghrudnika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/procedures/GhostShroudArmorKazhdyiTikDliaNaghrudnikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "Fly",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/network/FlyMessage.java"
+        ]
+      },
+      "path": "~/Chestplate"
+    },
+    {
+      "name": "GhostBerry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_berry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_berry.json",
+          "src/main/java/net/mcreator/silveroretest/item/GhostBerryItem.java"
+        ]
+      },
+      "path": "~/Fruit"
+    },
+    {
+      "name": "GhostBerryProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_berry_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/procedures/GhostBerryProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Fruit"
+    },
+    {
+      "name": "GhostTree",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/ghost_tree.json",
+          "src/main/resources/assets/silver_ore_test/blockstates/ghost_tree.json",
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_tree.json",
+          "src/main/java/net/mcreator/silveroretest/block/GhostTreeBlock.java",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_tree.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    },
+    {
+      "name": "GhostLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/block/GhostLeavesBlock.java",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_leaves.json",
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/ghost_leaves.json",
+          "src/main/resources/assets/silver_ore_test/blockstates/ghost_leaves.json",
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_leaves.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    },
+    {
+      "name": "FogForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fog_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/worldgen/biome/fog_forest.json",
+          "src/main/resources/data/silver_ore_test/worldgen/configured_feature/fog_forest_tree.json",
+          "src/main/resources/data/silver_ore_test/worldgen/placed_feature/fog_forest_tree.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    },
+    {
+      "name": "GhostPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_planks.json",
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/ghost_planks.json",
+          "src/main/java/net/mcreator/silveroretest/block/GhostPlanksBlock.java",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_planks.json",
+          "src/main/resources/assets/silver_ore_test/blockstates/ghost_planks.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    },
+    {
+      "name": "GhostPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silver_ore_test/recipe/ghost_planks_recipe.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    },
+    {
+      "name": "GhostSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_slabs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/silveroretest/block/GhostSlabsBlock.java",
+          "src/main/resources/data/silver_ore_test/loot_table/blocks/ghost_slabs.json",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_slabs_full.json",
+          "src/main/resources/assets/silver_ore_test/blockstates/ghost_slabs.json",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_slabs.json",
+          "src/main/resources/assets/silver_ore_test/models/block/ghost_slabs_top.json",
+          "src/main/resources/assets/silver_ore_test/models/item/ghost_slabs.json"
+        ]
+      },
+      "path": "~/Fogged Mirror"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:GhostLeaves"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SilverOreBlock",
+      "~CUSTOM:SilverOreOre"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Ghost_ShroudArmor.body"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SilverOreBlock",
+      "~CUSTOM:SilverOreOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GhostPlanks"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:GhostSlabs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SilverSword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.silver_ore_test.ecto_cloth": "Ecto Cloth",
+      "item.silver_ore_test.silver_ore_ingot": "SilverOre",
+      "item.silver_ore_test.ghost_shroud_armor_chestplate": "Ghost_Shroud Chestplate",
+      "block.silver_ore_test.silver_ore_block": "SilverBlock",
+      "block.silver_ore_test.ghost_slabs": "Ghost Slabs",
+      "biome.silver_ore_test.fog_forest": "Fog Forest",
+      "item_group.silver_ore_test.ghost_mound_mod": "Ghost Mound Mod",
+      "item.silver_ore_test.silver_sword": "Silver Sword",
+      "block.silver_ore_test.ghost_planks": "Ghost Planks",
+      "item.silver_ore_test.silver_smithing_template": "Silver Smithing Template",
+      "block.silver_ore_test.silver_ore_ore": "SilverOre Ore",
+      "block.silver_ore_test.ghost_leaves": "Ghost Leaves",
+      "item.silver_ore_test.ecto_plasm": "Ecto Plasm",
+      "item.silver_ore_test.ghost_berry": "Ghost Berry",
+      "block.silver_ore_test.ghost_tree": "Ghost Tree",
+      "key.silver_ore_test.fly": "Fly"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Fogged Mirror",
+        "children": []
+      },
+      {
+        "name": "Ore",
+        "children": []
+      },
+      {
+        "name": "Sword",
+        "children": []
+      },
+      {
+        "name": "Chestplate",
+        "children": []
+      },
+      {
+        "name": "Structure",
+        "children": []
+      },
+      {
+        "name": "Fruit",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "silver_ore_test",
+    "modName": "silver_ore_test",
+    "version": "1.0.0",
+    "author": "Vlados, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.silveroretest"
+  },
+  "mcreatorVersion": 202400340615
+}

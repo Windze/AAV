@@ -1,0 +1,7 @@
+/locate structure silver_ore_test:test
+/tp @s -240 ~ -880
+/tp 10000 64 10000
+/locate structure silver_ore_test:test
+/tp @s 10656 ~ 10976
+/time set night
+/time set day

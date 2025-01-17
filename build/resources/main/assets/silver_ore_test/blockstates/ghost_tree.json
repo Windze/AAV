@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "silver_ore_test:block/ghost_tree",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "silver_ore_test:block/ghost_tree"
+    },
+    "axis=z": {
+      "model": "silver_ore_test:block/ghost_tree",
+      "x": 90
+    }
+  }
+}

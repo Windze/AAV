@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:iron_sword"
+  },
+  "base": {
+    "item": "silver_ore_test:silver_ore_ingot"
+  },
+  "addition": {
+    "item": "silver_ore_test:silver_smithing_template"
+  },
+  "result": {
+    "id": "silver_ore_test:silver_sword"
+  }
+}

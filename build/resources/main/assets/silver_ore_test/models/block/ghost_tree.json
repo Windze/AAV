@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "silver_ore_test:block/blue_birch_inside",
+    "up": "silver_ore_test:block/blue_birch_inside",
+    "north": "silver_ore_test:block/blue_birch",
+    "east": "silver_ore_test:block/blue_birch",
+    "south": "silver_ore_test:block/blue_birch",
+    "west": "silver_ore_test:block/blue_birch",
+    "particle": "silver_ore_test:block/blue_birch_inside"
+  },
+  "render_type": "solid"
+}

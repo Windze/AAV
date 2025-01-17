@@ -1,0 +1,19 @@
+{
+  "item.silver_ore_test.ecto_cloth": "Ecto Cloth",
+  "item.silver_ore_test.silver_ore_ingot": "SilverOre",
+  "item.silver_ore_test.ghost_shroud_armor_chestplate": "Ghost_Shroud Chestplate",
+  "block.silver_ore_test.silver_ore_block": "SilverBlock",
+  "block.silver_ore_test.ghost_slabs": "Ghost Slabs",
+  "block.silver_ore_test.ghost_stairs": "Ghost Stairs",
+  "biome.silver_ore_test.fog_forest": "Fog Forest",
+  "item_group.silver_ore_test.ghost_mound_mod": "Ghost Mound Mod",
+  "item.silver_ore_test.silver_sword": "Silver Sword",
+  "block.silver_ore_test.ghost_planks": "Ghost Planks",
+  "item.silver_ore_test.silver_smithing_template": "Silver Smithing Template",
+  "block.silver_ore_test.silver_ore_ore": "SilverOre Ore",
+  "block.silver_ore_test.ghost_leaves": "Ghost Leaves",
+  "item.silver_ore_test.ecto_plasm": "Ecto Plasm",
+  "item.silver_ore_test.ghost_berry": "Ghost Berry",
+  "block.silver_ore_test.ghost_tree": "Ghost Tree",
+  "key.silver_ore_test.fly": "Fly"
+}

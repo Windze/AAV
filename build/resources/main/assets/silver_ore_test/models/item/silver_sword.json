@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "silver_ore_test:item/silver_sword"
+  }
+}

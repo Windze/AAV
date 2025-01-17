@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "silver_ore_test:ghost_planks"
+    },
+    {
+      "item": "silver_ore_test:ghost_planks"
+    },
+    {
+      "item": "silver_ore_test:ghost_planks"
+    }
+  ],
+  "result": {
+    "id": "silver_ore_test:ghost_slabs",
+    "count": 6
+  }
+}

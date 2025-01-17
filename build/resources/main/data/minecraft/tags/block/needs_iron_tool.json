@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "silver_ore_test:silver_ore_block",
+    "silver_ore_test:silver_ore_ore"
+  ]
+}

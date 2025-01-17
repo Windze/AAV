@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silver_ore_test:block/ghost_slabs"
+    },
+    "type=top": {
+      "model": "silver_ore_test:block/ghost_slabs_top"
+    },
+    "type=double": {
+      "model": "silver_ore_test:block/ghost_slabs_full"
+    }
+  }
+}

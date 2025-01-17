@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "silver_ore_test:block/silver_block",
+    "particle": "silver_ore_test:block/silver_block"
+  },
+  "render_type": "solid"
+}

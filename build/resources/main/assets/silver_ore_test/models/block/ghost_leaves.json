@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "silver_ore_test:block/ghostleaves",
+    "particle": "silver_ore_test:block/ghostleaves"
+  }
+}
